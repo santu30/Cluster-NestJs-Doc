@@ -3,27 +3,17 @@ const fs = require('fs');
 const sidebarPath = './docs/_sidebar.md';
 const readmePath = './docs/README.md';
 
-const sidebar = fs.readFileSync(sidebarPath, 'utf8');
+const header = `# Welcome to Cluster NestJS project
 
-let output = `# Welcome to Cluster NestJS project
-
-# 📦 Get Started
+## 📦 Get Started
 
 Welcome! Explore all available modules below:
 
 ---
-
 `;
 
-const lines = sidebar.split('\n');
+const sidebar = fs.readFileSync(sidebarPath, 'utf8');
 
-for (const line of lines) {
-    if (line.startsWith('- ')) {
-        output += `## ${line.replace('- ', '')}\n`;
-    } else if (line.trim().startsWith('- ')) {
-        output += `${line.trim()}\n`;
-    }
-}
+fs.writeFileSync(readmePath, header + '\n' + sidebar.trim() + '\n');
 
-fs.writeFileSync(readmePath, output.trim() + '\n');
-console.log('✅ README.md updated from _sidebar.md');
+console.log('✅ README.md updated with raw _sidebar.md content');
