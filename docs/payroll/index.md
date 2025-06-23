@@ -17,9 +17,9 @@ Each setup includes:
 
 ## 👇 Get Started
 
-- [Create Setup →](./create.md)
-- [Update Setup →](./update.md)
-- [Fetch Setup →](./get.md)
+- [Create Setup →](/payroll/create.md)
+- [Update Setup →](/payroll/update.md)
+- [Fetch Setup →](/payroll/get.md)
 
 ---
 
