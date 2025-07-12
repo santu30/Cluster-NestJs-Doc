@@ -1,5 +1,5 @@
 * [🏠 Home](/README.md)
-* [Enum](/enum.md)
+* [🎛️ Enum](/enum.md)
 * 📦 Storage
   * [➕ Create](storage/create.md)
   * [🔁 Update](storage/update.md)
