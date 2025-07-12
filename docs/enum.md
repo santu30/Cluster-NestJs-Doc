@@ -3,7 +3,7 @@
 This document defines a comprehensive set of enumerations (enums) ensuring data consistency and reducing errors. These enums cover various aspects of the application, including project and task management (e.g., `projectStatus`, `taskPriority`), user roles and personal details (e.g., `userType`, `salutation`), and business operations like sales, service, and inventory (e.g., `quotationStatus`, `serviceStatus`, `stockType`).
 
 
-### `projectStatus`
+#### `projectStatus`
 
 * `notStarted`
 * `inProgress`
@@ -11,7 +11,7 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `completed`
 * `cancelled`
 
-### `milestoneStatus`
+#### `milestoneStatus`
 
 * `notStarted`
 * `inProgress`
@@ -20,12 +20,12 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `cancelled`
 * `pending`
 
-### `fileType`
+#### `fileType`
 
 * `public`
 * `private`
 
-### `taskStatus`
+#### `taskStatus`
 
 * `notStarted`
 * `inProgress`
@@ -33,13 +33,13 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `completed`
 * `cancelled`
 
-### `taskPriority`
+#### `taskPriority`
 
 * `high`
 * `low`
 * `medium`
 
-### `salutation`
+#### `salutation`
 
 * `Mr`
 * `Mrs`
@@ -48,64 +48,64 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `Prof`
 * `Ms`
 
-### `gender`
+#### `gender`
 
 * `MALE`
 * `FEMALE`
 * `OTHER`
 
-### `ownership`
+#### `ownership`
 
 * `OWN`
 * `OTHER`
 
-### `assetType`
+#### `assetType`
 
 * `USED`
 * `NEW`
 
-### `assetStatus`
+#### `assetStatus`
 
 * `inuse`
 * `unuse`
 * `maintenance`
 
-### `alternateType`
+#### `alternateType`
 
 * `Even`
 * `Odd`
 * `NA`
 
-### `shiftType`
+#### `shiftType`
 
 * `Time`
 * `DayHourly`
 * `WeekHourly`
 
-### `messageType`
+#### `messageType`
 
 * `Text`
 * `File`
 * `Image`
 
-### `activityType`
+#### `activityType`
 
 * `LEADCALL`
 * `CANDIDATECALL`
 * `INTERVIEW`
 * `MEETING`
 
-### `callType`
+#### `callType`
 
 * `candidateCall`
 * `leadCall`
 
-### `InterviewMode`
+#### `InterviewMode`
 
 * `OFFLINE`
 * `ONLINE`
 
-### `leadSource`
+#### `leadSource`
 
 * `referral`
 * `website`
@@ -113,26 +113,26 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `advertisement`
 * `other`
 
-### `meetingStatus`
+#### `meetingStatus`
 
 * `planned`
 * `held`
 * `notHeld`
 
-### `userType`
+#### `userType`
 
 * `admin`
 * `user`
 * `sales`
 * `client`
 
-### `leaveStatus`
+#### `leaveStatus`
 
 * `pending`
 * `approved`
 * `rejected`
 
-### `attendanceStatus`
+#### `attendanceStatus`
 
 * `Present`
 * `Absent`
@@ -141,30 +141,30 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `Leave`
 * `Late`
 
-### `payrollSetupType`
+#### `payrollSetupType`
 
 * `deductions`
 * `earnings`
 * `total`
 * `gross`
 
-### `allowedPlatforms`
+#### `allowedPlatforms`
 
 * `web`
 * `desktop`
 * `app`
 
-### `productType`
+#### `productType`
 
 * `service`
 * `product`
 
-### `stockType`
+#### `stockType`
 
 * `in`
 * `out`
 
-### `quotationStatus`
+#### `quotationStatus`
 
 * `DRAFT`
 * `SENT`
@@ -174,7 +174,7 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `CANCELLED`
 * `INVOICE_GENERATED`
 
-### `salesOrderStatus`
+#### `salesOrderStatus`
 
 * `DRAFT`
 * `SENT`
@@ -184,24 +184,24 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `CANCELLED`
 * `INVOICE_GENERATED`
 
-### `discountType`
+#### `discountType`
 
 * `percentage`
 * `fixed`
 
-### `taxableType`
+#### `taxableType`
 
 * `NA`
 * `EXEMPT`
 * `TAXABLE`
 * `NILL`
 
-### `warrantyMode`
+#### `warrantyMode`
 
 * `IN_WARRANTY`
 * `OUT_OF_WARRANTY`
 
-### `serviceStatus`
+#### `serviceStatus`
 
 * `OPEN`
 * `ASSIGNED`
@@ -210,25 +210,25 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `COMPLETED`
 * `CANCELLED`
 
-### `priority`
+#### `priority`
 
 * `LOW`
 * `MEDIUM`
 * `HIGH`
 
-### `visitorStatus`
+#### `visitorStatus`
 
 * `pending`
 * `accepted`
 * `declined`
 * `completed`
 
-### `packageType`
+#### `packageType`
 
 * `DURATION`
 * `FEATURE`
 
-### `durationType`
+#### `durationType`
 
 * `MONTHLY`
 * `QUARTERLY`
