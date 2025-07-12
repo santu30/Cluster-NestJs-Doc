@@ -7,7 +7,7 @@ Welcome! Explore all available modules below:
 ---
 
 * [🏠 Home](/README.md)
-
+* [Enum](/enum.md)
 * 📦 Storage
   * [➕ Create](storage/create.md)
   * [🔁 Update](storage/update.md)
