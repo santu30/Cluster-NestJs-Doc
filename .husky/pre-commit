@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-node ./generate-readme-from-sidebar.js
-git add docs/README.md
+# node ./generate-readme-from-sidebar.js
+# git add docs/README.md
