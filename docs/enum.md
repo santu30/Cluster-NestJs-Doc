@@ -233,3 +233,21 @@ This document defines a comprehensive set of enumerations (enums) ensuring data 
 * `MONTHLY`
 * `QUARTERLY`
 * `YEARLY`
+
+
+---
+
+#### Image upload API `entityType` 
+- `project`
+- `user`
+- `client`
+- `task`
+- `asset`
+- `vendor`
+- `conversation`
+- `leadStream`
+- `ticket`
+- `candidate`
+- `call`
+- `userDocument`
+
