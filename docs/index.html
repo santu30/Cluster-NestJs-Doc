@@ -50,13 +50,15 @@
         plugins: [
           function pageFooter(hook, vm) {
             const year = new Date().getFullYear();
-            const ref = document.referrer ? ` | Referred from: <a href="${document.referrer}" target="_blank">${new URL(document.referrer).hostname}</a>` : '';
+            const ref = document.referrer
+              ? ` | Referred from: <a href="${document.referrer}" target="_blank">${new URL(document.referrer).hostname}</a>`
+              : '';
 
-            var footer = [
+            const footer = [
               '<hr/>',
               '<footer>',
-              '<span><a href="https://github.com/koffeekodesInnovations/cluster_nestjs">Koffeekodes Innovations Pvt. Ltd.</a> &copy; ' + year + ' | </span>',
-              '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>, Maintained by <a href="mailto:santu.koffeekodes@gmail.com?subject=Cluster NestJs Doc&body=reference: ' + ref + '">Santu</a></span>',
+              `<span><a href="https://github.com/koffeekodesInnovations/cluster_nestjs">Koffeekodes Innovations Pvt. Ltd.</a> &copy; ${year} | </span>`,
+              `<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>, Maintained by <a href="mailto:santu.koffeekodes@gmail.com?subject=Cluster NestJs Doc&body=reference: ${document.referrer || 'Direct Visit'}">Santu</a>${ref}</span>`,
               '</footer>',
             ].join('');
 
