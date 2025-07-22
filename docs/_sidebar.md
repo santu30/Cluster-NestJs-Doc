@@ -3,7 +3,7 @@
 * [🎛️ Enum](/enum.md)
 
 * Status
-  * [Intro](status/intro.md)
+  * [Status](status/intro.md)
 
 
 * 📦 Storage
