@@ -3,251 +3,251 @@
 This document defines a comprehensive set of enumerations (enums) ensuring data consistency and reducing errors. These enums cover various aspects of the application, including project and task management (e.g., `projectStatus`, `taskPriority`), user roles and personal details (e.g., `userType`, `salutation`), and business operations like sales, service, and inventory (e.g., `quotationStatus`, `serviceStatus`, `stockType`).
 
 
-#### `projectStatus`
+#### projectStatus
 
-* `notStarted`
-* `inProgress`
-* `onHold`
-* `completed`
-* `cancelled`
+* notStarted
+* inProgress
+* onHold
+* completed
+* cancelled
 
-#### `milestoneStatus`
+#### milestoneStatus
 
-* `notStarted`
-* `inProgress`
-* `onHold`
-* `completed`
-* `cancelled`
-* `pending`
+* notStarted
+* inProgress
+* onHold
+* completed
+* cancelled
+* pending
 
-#### `fileType`
+#### fileType
 
-* `public`
-* `private`
+* public
+* private
 
-#### `taskStatus`
+#### taskStatus
 
-* `notStarted`
-* `inProgress`
-* `onHold`
-* `completed`
-* `cancelled`
+* notStarted
+* inProgress
+* onHold
+* completed
+* cancelled
 
-#### `taskPriority`
+#### taskPriority
 
-* `high`
-* `low`
-* `medium`
+* high
+* low
+* medium
 
-#### `salutation`
+#### salutation
 
-* `Mr`
-* `Mrs`
-* `Miss`
-* `Dr`
-* `Prof`
-* `Ms`
+* Mr
+* Mrs
+* Miss
+* Dr
+* Prof
+* Ms
 
-#### `gender`
+#### gender
 
-* `MALE`
-* `FEMALE`
-* `OTHER`
+* MALE
+* FEMALE
+* OTHER
 
-#### `ownership`
+#### ownership
 
-* `OWN`
-* `OTHER`
+* OWN
+* OTHER
 
-#### `assetType`
+#### assetType
 
-* `USED`
-* `NEW`
+* USED
+* NEW
 
-#### `assetStatus`
+#### assetStatus
 
-* `inuse`
-* `unuse`
-* `maintenance`
+* inuse
+* unuse
+* maintenance
 
-#### `alternateType`
+#### alternateType
 
-* `Even`
-* `Odd`
-* `NA`
+* Even
+* Odd
+* NA
 
-#### `shiftType`
+#### shiftType
 
-* `Time`
-* `DayHourly`
-* `WeekHourly`
+* Time
+* DayHourly
+* WeekHourly
 
-#### `messageType`
+#### messageType
 
-* `Text`
-* `File`
-* `Image`
+* Text
+* File
+* Image
 
-#### `activityType`
+#### activityType
 
-* `LEADCALL`
-* `CANDIDATECALL`
-* `INTERVIEW`
-* `MEETING`
+* LEADCALL
+* CANDIDATECALL
+* INTERVIEW
+* MEETING
 
-#### `callType`
+#### callType
 
-* `candidateCall`
-* `leadCall`
+* candidateCall
+* leadCall
 
-#### `InterviewMode`
+#### InterviewMode
 
-* `OFFLINE`
-* `ONLINE`
+* OFFLINE
+* ONLINE
 
-#### `leadSource`
+#### leadSource
 
-* `referral`
-* `website`
-* `social_media`
-* `advertisement`
-* `other`
+* referral
+* website
+* social_media
+* advertisement
+* other
 
-#### `meetingStatus`
+#### meetingStatus
 
-* `planned`
-* `held`
-* `notHeld`
+* planned
+* held
+* notHeld
 
-#### `userType`
+#### userType
 
-* `admin`
-* `user`
-* `sales`
-* `client`
+* admin
+* user
+* sales
+* client
 
-#### `leaveStatus`
+#### leaveStatus
 
-* `pending`
-* `approved`
-* `rejected`
+* pending
+* approved
+* rejected
 
-#### `attendanceStatus`
+#### attendanceStatus
 
-* `Present`
-* `Absent`
-* `HalfDay`
-* `OverTime`
-* `Leave`
-* `Late`
+* Present
+* Absent
+* HalfDay
+* OverTime
+* Leave
+* Late
 
-#### `payrollSetupType`
+#### payrollSetupType
 
-* `deductions`
-* `earnings`
-* `total`
-* `gross`
+* deductions
+* earnings
+* total
+* gross
 
-#### `allowedPlatforms`
+#### allowedPlatforms
 
-* `web`
-* `desktop`
-* `app`
+* web
+* desktop
+* app
 
-#### `productType`
+#### productType
 
-* `service`
-* `product`
+* service
+* product
 
-#### `stockType`
+#### stockType
 
-* `in`
-* `out`
+* in
+* out
 
-#### `quotationStatus`
+#### quotationStatus
 
-* `DRAFT`
-* `SENT`
-* `ACCEPTED`
-* `REJECTED`
-* `EXPIRED`
-* `CANCELLED`
-* `INVOICE_GENERATED`
+* DRAFT
+* SENT
+* ACCEPTED
+* REJECTED
+* EXPIRED
+* CANCELLED
+* INVOICE_GENERATED
 
-#### `salesOrderStatus`
+#### salesOrderStatus
 
-* `DRAFT`
-* `SENT`
-* `ACCEPTED`
-* `REJECTED`
-* `EXPIRED`
-* `CANCELLED`
-* `INVOICE_GENERATED`
+* DRAFT
+* SENT
+* ACCEPTED
+* REJECTED
+* EXPIRED
+* CANCELLED
+* INVOICE_GENERATED
 
-#### `discountType`
+#### discountType
 
-* `percentage`
-* `fixed`
+* percentage
+* fixed
 
-#### `taxableType`
+#### taxableType
 
-* `NA`
-* `EXEMPT`
-* `TAXABLE`
-* `NILL`
+* NA
+* EXEMPT
+* TAXABLE
+* NILL
 
-#### `warrantyMode`
+#### warrantyMode
 
-* `IN_WARRANTY`
-* `OUT_OF_WARRANTY`
+* IN_WARRANTY
+* OUT_OF_WARRANTY
 
-#### `serviceStatus`
+#### serviceStatus
 
-* `OPEN`
-* `ASSIGNED`
-* `IN_PROGRESS`
-* `ON_HOLD`
-* `COMPLETED`
-* `CANCELLED`
+* OPEN
+* ASSIGNED
+* IN_PROGRESS
+* ON_HOLD
+* COMPLETED
+* CANCELLED
 
-#### `priority`
+#### priority
 
-* `LOW`
-* `MEDIUM`
-* `HIGH`
+* LOW
+* MEDIUM
+* HIGH
 
-#### `visitorStatus`
+#### visitorStatus
 
-* `pending`
-* `accepted`
-* `declined`
-* `completed`
+* pending
+* accepted
+* declined
+* completed
 
-#### `packageType`
+#### packageType
 
-* `DURATION`
-* `FEATURE`
+* DURATION
+* FEATURE
 
-#### `durationType`
+#### durationType
 
-* `MONTHLY`
-* `QUARTERLY`
-* `YEARLY`
+* MONTHLY
+* QUARTERLY
+* YEARLY
 
 
 ---
 
-#### Image upload API `entityType` 
-- `project`
-- `user`
-- `client`
-- `task`
-- `asset`
-- `vendor`
-- `conversation`
-- `leadStream`
-- `ticket`
-- `candidate`
-- `call`
-- `userDocument`
+#### Image upload API entityType 
+- project
+- user
+- client
+- task
+- asset
+- vendor
+- conversation
+- leadStream
+- ticket
+- candidate
+- call
+- userDocument
 
