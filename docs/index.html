@@ -8,6 +8,24 @@
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+
+    <!-- Primary SEO -->
+    <title>Cluster NestJs Doc | Cluster v2 | Koffeekodes Innovations Pvt. Ltd.</title>
+    <meta name="description"
+      content="API docs and guides for Cluster v2 — including dynamic status module CRUD endpoints for Lead, LeadCall, CandidateCall, Interview, and Ticket modules." />
+    <meta name="keywords"
+      content="Cluster v2, NestJs, API Docs, Dynamic Status Module, Lead, LeadCall, CandidateCall, Interview, Ticket" />
+    <meta name="author" content="Santu / Cluster Team" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cluster NestJs Doc | Cluster v2 | Koffeekodes Innovations Pvt. Ltd." />
+    <meta property="og:description"
+      content="Comprehensive docs for Cluster v2 status module: create, update, delete & list dynamic statuses per module." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://santu30.github.io/Cluster-NestJs-Doc/" />
+    <meta property="og:image" content="https://santu30.github.io/Cluster-NestJs-Doc/logo.png" />
+
   </head>
 
   <body>
@@ -31,11 +49,14 @@
         },
         plugins: [
           function pageFooter(hook, vm) {
+            const year = new Date().getFullYear();
+            const ref = document.referrer ? ` | Referred from: <a href="${document.referrer}" target="_blank">${new URL(document.referrer).hostname}</a>` : '';
+
             var footer = [
               '<hr/>',
-              '<footer >',
-              '<span><a href="https://github.com/koffeekodesInnovations/cluster_nestjs">Koffeekodes Innovations Pvt. Ltd.</a> &copy; 2025 | </span>',
-              '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+              '<footer>',
+              '<span><a href="https://github.com/koffeekodesInnovations/cluster_nestjs">Koffeekodes Innovations Pvt. Ltd.</a> &copy; ' + year + ' | </span>',
+              '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>, Maintained by <a href="mailto:santu.koffeekodes@gmail.com?subject=Cluster NestJs Doc&body=reference: ' + ref + '">Santu</a></span>',
               '</footer>',
             ].join('');
 
