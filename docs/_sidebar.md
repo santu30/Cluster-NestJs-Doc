@@ -4,6 +4,10 @@
 
 * Status
   * [Status](status/intro.md)
+  * [➕ Create](status/create.md)
+  * [🔁 Update](status/update.md)
+  * [❌ Delete](status/delete.md)
+  * [📄 Listing](status/listing.md)
 
 
 * 📦 Storage
