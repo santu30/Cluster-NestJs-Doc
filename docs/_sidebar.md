@@ -1,5 +1,11 @@
 * [🏠 Home](/README.md)
+
 * [🎛️ Enum](/enum.md)
+
+* Status
+  * [Intro](status/intro.md)
+
+
 * 📦 Storage
   * [➕ Create](storage/create.md)
   * [🔁 Update](storage/update.md)
