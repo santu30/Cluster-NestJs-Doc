@@ -27,3 +27,8 @@
   * [➕ Create](userSalaryStructure/create.md)
   * [🔁 Update](userSalaryStructure/update.md)
   * [Get](userSalaryStructure/get.md)
+
+* Payslip Setup
+  * [Intro](payslipSetup/index.md)
+  * [Get Config](payslipSetup/get-config.md)
+  
