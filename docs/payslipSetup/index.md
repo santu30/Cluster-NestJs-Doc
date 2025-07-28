@@ -1,7 +1,3 @@
-Bet. Here's a clean **Intro Draft** for your **Salary Slip Setup Module** in markdown:
-
----
-
 # 🧾 Salary Slip Setup (Planning Phase)
 
 ### 🎯 Purpose
