@@ -15,6 +15,18 @@ Each setup includes:
 
 ---
 
+## Example of Payroll Setup
+| Type         | Components | Percentage (%) | Maximum | Calculation                         |
+|--------------|------------|----------------|---------|-------------------------------------|
+| earnings     | Basic      | 60             | -       | -                                   |
+| earnings     | HRA        | 30             | -       | -                                   |
+| earnings     | Others     | 12             | -       | -                                   |
+| earnings     | Bonus      | 10             | 10000   | -                                   |
+| deductions   | PF         | 12             | -       | -                                   |
+| total        | -          | 0              | -       | sum(earnings) - sum(deductions)     |
+| gross        | -          | 0              | -       | sum(earnings)                        |
+
+
 ## 👇 Get Started
 
 - [Create Setup →](/payroll/create.md)

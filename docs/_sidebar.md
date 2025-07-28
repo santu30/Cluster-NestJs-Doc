@@ -20,3 +20,10 @@
   * [➕ Create](payroll/create.md)
   * [🔁 Update](payroll/update.md)
   * [Get](payroll/get.md)
+
+* User Salary Structure
+  * [Intro](userSalaryStructure/index.md)
+  * [📄 Get Components](userSalaryStructure/get-payroll-component.md)
+  * [➕ Create](userSalaryStructure/create.md)
+  * [🔁 Update](userSalaryStructure/update.md)
+  * [Get](userSalaryStructure/get.md)
