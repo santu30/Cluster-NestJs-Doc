@@ -31,4 +31,9 @@
 * Payslip Setup
   * [Intro](payslipSetup/index.md)
   * [Get Config](payslipSetup/get-config.md)
+
+* Discussion / Chat
+  * [Intro](chat/index.md)
+  * [Auth](chat/auth.md)
+  * [Join Room](chat/joinRoom.md)
   
