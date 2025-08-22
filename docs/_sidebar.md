@@ -36,4 +36,5 @@
   * [Intro](chat/index.md)
   * [Auth](chat/auth.md)
   * [Join Room](chat/joinRoom.md)
+  * [Message](chat/message.md)
   
