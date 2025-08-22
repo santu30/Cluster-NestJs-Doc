@@ -2,8 +2,8 @@
 
 When a user sends a message (text or file), the client must emit the `sendMessage` event to the server.
 
-> ⚠️ `roomId` will be obtained from the **Discussion Listing API**.
-> ⚠️ `messageId` must be generated on the client (5–10 digit unique number).
+> ⚠️ `roomId` will be obtained from the **Discussion Listing API**. <br>
+> ⚠️ `messageId` must be generated on the client (5–10 digit unique number). <br>
 > ⚠️ For file upload, use the existing **File Upload API** before emitting `sendMessage`.
 
 ---
