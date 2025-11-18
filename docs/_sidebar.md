@@ -38,7 +38,7 @@
   * [Join Room](chat/joinRoom.md)
   * [Message](chat/message.md)
 
-* [Email Settings](EmailSettings/index.md)
+* [Email Settings](emailSettings/index.md)
 
 
   
