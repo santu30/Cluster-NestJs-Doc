@@ -49,35 +49,21 @@ auth3@koffeekodes.com, common@koffeekodes.com" <br>
     {
       "id": 1,
       "moduleName": "User",
-      "emailIds": [
-        "user@koffeekodes.com",
-        "user2@koffeekodes.com",
-        "user3@koffeekodes.com",
-        "common@koffeekodes.com"
-      ]
+      "emailIds": "user@koffeekodes.com,user2@koffeekodes.com,user3@koffeekodes.com,common@koffeekodes.com"
     },
     {
       "id": 2,
       "moduleName": "Account",
-      "emailIds": [
-        "account@koffeekodes.com",
-        "account2@koffeekodes.com",
-        "account3@koffeekodes.com",
-        "common@koffeekodes.com"
-      ]
+      "emailIds": "account@koffeekodes.com,account2@koffeekodes.com,account3@koffeekodes.com,common@koffeekodes.com"
     },
     {
       "id": 3,
       "moduleName": "Auth",
-      "emailIds": [
-        "auth@koffeekodes.com",
-        "auth2@koffeekodes.com",
-        "auth3@koffeekodes.com",
-        "common@koffeekodes.com"
-      ]
+      "emailIds": "auth@koffeekodes.com,auth2@koffeekodes.com,auth3@koffeekodes.com,common@koffeekodes.com"
     }
   ]
 }
+
 
 
 ```
@@ -104,12 +90,7 @@ PUT {{url}}/receive-email/:id
 {
   "id": 1,
   "moduleName": "User",
-  "emailIds": [
-    "user@koffeekodes.com",
-    "user2@koffeekodes.com",
-    "user3@koffeekodes.com",
-    "common@koffeekodes.com"
-  ]
+  "emailIds": "user@koffeekodes.com,user2@koffeekodes.com,user3@koffeekodes.com,common@koffeekodes.com"
 }
 
 ```
