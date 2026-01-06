@@ -7,6 +7,32 @@
 
 ---
 
+## 🌐 Links
+
+### 🟢 Production
+
+**Web**
+- Cluster Console: https://cluster-console.vercel.app/login
+- Cluster Web: https://cluster-web-brown.vercel.app/login
+
+**API**
+- API Base URL: https://cluster.koffeekodes.in/api/
+- Health Check: https://cluster.koffeekodes.in/api/health
+
+---
+
+### 🔴 Test / Staging
+
+**Web**
+- Cluster Console: https://cluster-console-git-dev-koffeekodes.vercel.app/login
+- Cluster Web: https://cluster-web-git-newdev-koffeekodes.vercel.app/login
+
+**API**
+- API Base URL: https://cluster-test.koffeekodes.in/api/
+- Health Check: https://cluster-test.koffeekodes.in/api/health
+
+---
+
 ## 🧩 Modules
 
 ### 1. **Authentication & User Management**
