@@ -1,4 +1,5 @@
 * [🏠 Home](/README.md)
+* [Auth](auth/index.md)
 
 * [🎛️ Enum](/enum.md)
 
