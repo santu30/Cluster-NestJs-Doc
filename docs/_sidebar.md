@@ -45,4 +45,6 @@
 
 * ChatV2 
   * [Intro](chatv2/index.md)
+* Settings
+  * [Sales / Purchase](settings/salesPurchase.md)
   
